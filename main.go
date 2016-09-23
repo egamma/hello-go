@@ -1,12 +1,9 @@
 package main
 
-import (
-	"net/http"
-)
+import "net/http"
 
 func hello(w http.ResponseWriter, r *http.Request) {
-    var msg = "Hello C&E from VS Code and Go!"
-
+	var msg = "<h1>Happy Anniversary VIS and IAETH!</h1>"
 }
 
 func main() {
